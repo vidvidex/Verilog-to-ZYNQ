@@ -1,6 +1,6 @@
 # Verilog to ZYNQ
 
-This comprehensive guide demonstrates how to package your HDL (Verilog) code as an IP core, integrate it into a block design with a ZYNQ Processing System, and access it from software using AXI-lite and full AXI interfaces through an AXI BRAM Controller with Vivado and Vitis IDE.
+This guide demonstrates how to package your HDL (Verilog) code as an IP core, integrate it into a block design with a ZYNQ Processing System, and access it from software using AXI-lite and full AXI interfaces through an AXI BRAM Controller with Vivado and Vitis IDE.
 
 This guide serves as a spiritual successor to my previous [HDL on PYNQ](https://github.com/vidvidex/HDL-on-PYNQ) tutorial.
 
