@@ -1,4 +1,4 @@
-# Verilog to ZYNQ
+# ZYNQ Custom IP Development Guide: HDL Software integration with Vivado and Vitis
 
 This guide demonstrates how to package your HDL (Verilog) code as an IP core, integrate it into a block design with a ZYNQ Processing System, and access it from software using AXI-lite and full AXI interfaces through an AXI BRAM Controller with Vivado and Vitis IDE.
 
@@ -10,7 +10,7 @@ This guide serves as a spiritual successor to my previous [HDL on PYNQ](https://
 
 ## Example HDL Code
 
-For this tutorial, I'll be using my implementation of the [Falcon signature algorithm](https://falcon-sign.info/). While the complete code is extensive and still under development, the key component for this guide is the interface of the top module:
+For this tutorial, I'll be using my implementation of the [Falcon signature algorithm](https://falcon-sign.info/). While the complete code is still under development, the key component for this guide is the interface of the top module:
 
 ```verilog
 module falcon#(
